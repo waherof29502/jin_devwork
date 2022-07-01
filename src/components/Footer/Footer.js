@@ -2,36 +2,44 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Design Portfolio</LinkTitle>
+          <LinkItem href='http://jinwangartist.com/'>JinWang Artist</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
-          </LinkItem>
+          <LinkItem href='info@jinwangdev.com'>info@jinwangdev.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>Slogan</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href='https://github.com/waherof29502'>
+            <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillLinkedin size="3rem" />
+          <SocialIcons href='linkedin.com/in/chingping-wang-a4751b167/'>
+            <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href='https://www.instagram.com/jinwangartist/?r=nametag'>
+            <AiFillInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

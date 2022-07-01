@@ -1,40 +1,40 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'MERN Card',
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      'Using React, Node.js, Express & MongoDB on a Full Stack MERN Application development. The App refers CRUD operations',
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['MongoDB', 'Express', 'React', 'Node'],
+    source: '/',
+    visit: '/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'Crypto Wallet',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      'A modern crypto wallet app built up by Next.js, Solidity, MetaMask & TailwindCss. The App enables sending crypto currency through smart contract on blockchain.',
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['Next', 'Solidity', 'Web3.0', 'Tailwind'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
+    title: 'Cryptocurrency App',
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      'This is an app severs real-time information of currency exchange and crypto news. It takes Redux Toolkit to fetch data from Rapid Api',
     image: '/images/3.jpg',
-    tags: ['React', 'WebRTC'],
+    tags: ['React', 'Redux', 'Rapid Api', 'Ant Design'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
   },
   {
-    title: 'Unichat',
+    title: 'Uber Clone App',
     description:
       'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['React Native', 'Expo', 'Google Api', 'Redux'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
@@ -42,16 +42,16 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey' },
-  { year: 2018, text: 'Worked as a freelance developer' },
-  { year: 2019, text: 'Founded JavaScript Mastery' },
-  { year: 2020, text: 'Shared my projects with the world' },
-  { year: 2021, text: 'Started my own platform' },
+  { year: 2018, text: 'MA of Visual Communication in the UK' },
+  { year: 2019, text: 'Interesting in Interactive Design&Art' },
+  { year: 2020, text: 'Worked as a freelance web designer & developer' },
+  { year: 2021, text: 'Started Full stack development' },
+  { year: 2022, text: 'Started Web3.0 journey ' },
 ];
 
 export const AchievementsData = [
-  { number: 20, text: 'Open Source Projects' },
-  { number: 1000, text: 'Students' },
-  { number: 1900, text: 'Github Followers' },
-  { number: 5000, text: 'Github Stars' },
+  { number: 2, text: '' },
+  { number: 1, text: '' },
+  { number: 1, text: '' },
+  { number: 5, text: '' },
 ];

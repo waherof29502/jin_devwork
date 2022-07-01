@@ -1,21 +1,27 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
+import styled from 'styled-components';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
-
-const Hero = (props) => (
+import { LeftSection, Bg } from './HeroStyles';
+const Hero = () => (
   <>
-    <Section row nopadding>
+    <Section>
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          JinWang's Portfolio
         </SectionTitle>
-        <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-        </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <SectionText>Expe</SectionText>
+        <Button onClick={() => (window.location = 'http://google.com')}>
+          Learn More
+        </Button>
       </LeftSection>
     </Section>
   </>
