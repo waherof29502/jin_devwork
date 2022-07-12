@@ -65,12 +65,12 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      {/* <SectionTitle>About Me</SectionTitle>
       <SectionText>
         As a Visual Communication Design Graduate, I have an appetite for
         Art&Design and an aptitude to create visual language in every media
         device.
-      </SectionText>
+      </SectionText> */}
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -140,7 +140,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

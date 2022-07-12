@@ -15,13 +15,15 @@ const Hero = () => (
     <Section>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          JinWang's Portfolio
+          Jin Wang Dev's <br />
+          Portfolio
         </SectionTitle>
-        <SectionText>Expe</SectionText>
-        <Button onClick={() => (window.location = 'http://google.com')}>
+        <SectionText>
+          I've worked in wide range of web development. From Design To Back-end
+        </SectionText>
+        {/* <Button onClick={() => (window.location = 'http://google.com')}>
           Learn More
-        </Button>
+        </Button> */}
       </LeftSection>
     </Section>
   </>

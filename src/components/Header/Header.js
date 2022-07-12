@@ -22,29 +22,36 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
+        <Link href='#tech'>
+          <NavLink>About Me</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href='#projects'>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      <li>
-        <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
+
       <li>
         <Link href='#about'>
-          <NavLink>About</NavLink>
+          <NavLink>Info</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/waherof29502'>
+      <SocialIcons href='https://github.com/waherof29502' target='_blank'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='linkedin.com/in/chingping-wang-a4751b167/'>
+      <SocialIcons
+        href='https://www.linkedin.com/in/chingping-wang-a4751b167/'
+        target='_blank'
+      >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.instagram.com/jinwangartist/?r=nametag'>
+      <SocialIcons
+        href='https://www.instagram.com/jinwangartist/?r=nametag'
+        target='_blank'
+      >
         <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>

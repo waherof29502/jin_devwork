@@ -25,17 +25,16 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href='info@jinwangdev.com'>info@jinwangdev.com</LinkItem>
+          <LinkItem href='info@jinwangdev.com'>info@jinwangartist.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Slogan</Slogan>
-        </CompanyContainer>
+        <CompanyContainer>{/* <Slogan>Slogan</Slogan> */}</CompanyContainer>
         <SocialContainer>
           <SocialIcons href='https://github.com/waherof29502'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='linkedin.com/in/chingping-wang-a4751b167/'>
+          <SocialIcons href='https://www.linkedin.com/in/chingping-wang-a4751b167/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
           <SocialIcons href='https://www.instagram.com/jinwangartist/?r=nametag'>

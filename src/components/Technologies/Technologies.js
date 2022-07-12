@@ -1,5 +1,7 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FiFigma } from 'react-icons/fi';
+
 import {
   Section,
   SectionDivider,
@@ -17,12 +19,24 @@ import {
 const Technologies = () => (
   <Section id='tech'>
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>About Me</SectionTitle>
     <SectionText>
-      I've worked in wide range of web development. <br />
-      From Design To Back-end
+      As a Visual Communication Design Graduate, I have an appetite for design
+      and an aptitude to create visual language in media device.
     </SectionText>
     <List>
+      <ListItem>
+        <picture>
+          <FiFigma size='2rem' />
+        </picture>
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Figma, Adobe Software
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <picture>
           <DiReact size='3rem' />
@@ -31,7 +45,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            JavaScript React.js
+            JavaScript, React, React Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,19 +57,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js Firebase Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size='3rem' />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Figma Adobe
+            Next, Firebase, GraphQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

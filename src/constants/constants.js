@@ -1,57 +1,57 @@
 export const projects = [
   {
-    title: 'MERN Card',
+    title: 'Reddit Clone',
     description:
-      'Using React, Node.js, Express & MongoDB on a Full Stack MERN Application development. The App refers CRUD operations',
+      'Using framework Next.js with Node.js, SupaBase and GraphQL on a Full Stack CRUD Application development.',
     image: '/images/1.png',
-    tags: ['MongoDB', 'Express', 'React', 'Node'],
-    source: '/',
-    visit: '/',
+    tags: ['Next', 'SupaBase', 'Tailwind', 'GraphQL'],
+    source: 'https://github.com/waherof29502/jin_reddit2.0',
+    visit: 'https://jin-reddit2-0.vercel.app/',
     id: 0,
   },
   {
     title: 'Crypto Wallet',
     description:
-      'A modern crypto wallet app built up by Next.js, Solidity, MetaMask & TailwindCss. The App enables sending crypto currency through smart contract on blockchain.',
+      'The App enables sending crypto currency through smart contract on blockchain.',
     image: '/images/2.png',
     tags: ['Next', 'Solidity', 'Web3.0', 'Tailwind'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/waherof29502/jin_web3.0',
+    visit: 'http://web3.jinwangdev.com/',
     id: 1,
   },
   {
     title: 'Cryptocurrency App',
     description:
-      'This is an app severs real-time information of currency exchange and crypto news. It takes Redux Toolkit to fetch data from Rapid Api',
-    image: '/images/3.jpg',
+      'This is an app severs real-time information of currency exchange and crypto news.',
+    image: '/images/3.png',
     tags: ['React', 'Redux', 'Rapid Api', 'Ant Design'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/waherof29502/jin_cryptoinfo',
+    visit: 'http://crypto.jinwangdev.com/',
     id: 2,
   },
   {
-    title: 'Uber Clone App',
+    title: 'Data Dashboard',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React Native', 'Expo', 'Google Api', 'Redux'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      'This is a data visualization dashboard with Theming, Tables, Charts, Calendar. ',
+    image: '/images/4.png',
+    tags: ['Next', 'Syncfusion', 'Tailwind'],
+    source: 'https://github.com/waherof29502/jin_dashboard',
+    visit: 'https://jindashboard.netlify.app/',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
   { year: 2018, text: 'MA of Visual Communication in the UK' },
-  { year: 2019, text: 'Interesting in Interactive Design&Art' },
+  { year: 2019, text: 'Started Visual Art and coding' },
   { year: 2020, text: 'Worked as a freelance web designer & developer' },
   { year: 2021, text: 'Started Full stack development' },
   { year: 2022, text: 'Started Web3.0 journey ' },
 ];
 
 export const AchievementsData = [
-  { number: 2, text: '' },
-  { number: 1, text: '' },
-  { number: 1, text: '' },
-  { number: 5, text: '' },
+  { number: 2, text: 'trtt' },
+  { number: 1, text: 'rgrgrg' },
+  { number: 1, text: 'rtrgr' },
+  { number: 5, text: 'grg' },
 ];
